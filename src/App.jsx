@@ -7,6 +7,8 @@ import Ourstanding from "./components/Ourstanding";
 import Download from "./components/Download";
 import Categorys from "./components/Categorys_section";
 import Footer from "./components/Footer_section";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Download />
       <Categorys />
       <Footer />
+      <Login />
+      <Signup />
     </div>
   );
 }

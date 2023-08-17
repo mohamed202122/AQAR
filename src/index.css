@@ -155,7 +155,8 @@ body {
   gap: 5px;
 }
 
-.Search form input {
+.Search form input,
+.Search form Select {
   width: 17%;
   height: 59px;
   flex-shrink: 0;
@@ -168,6 +169,8 @@ body {
   line-height: 20px;
   font-family: "Poppins";
 }
+
+.Search form Select {}
 
 .Search form input:nth-child(2) {
   width: 20%;
@@ -704,3 +707,258 @@ body {
 }
 
 /* ////////////////////////////////////////// */
+
+
+.Login {
+  margin: 20px 15%;
+  border: 1px solid transparent;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  /* padding: 30px; */
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  background: #fff;
+  /* justify-content: center; */
+  /* padding : 20px; */
+  /* margin: 20px 15%; */
+  /* border: 1px solid #000; */
+  /* height: 896px; */
+}
+
+.Login .white {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  width: 50%;
+}
+
+.Login .white p.login {
+  color: #000;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Login .white p.welcome {
+  color: #E95437;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 50px;
+  ;
+}
+
+.Login .white form label {
+  display: block;
+  color: #696F79;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Login .white form label {
+  display: block;
+  color: #696F79;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Login .white form input {
+  height: 64px;
+  width: 513px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #8692A6;
+  padding: 10px;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Poppins";
+  margin-bottom: 20px;
+}
+
+.Login .white form .buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Login .white form .forget {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-align: center;
+  line-height: 60px;
+}
+
+.Login .white form .ButtonLogin {
+  /* width: 100%; */
+
+  margin: 10px 0;
+  display: flex;
+  padding: 15px 192px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-radius: 10px;
+  background: #E95437;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+
+}
+
+.Login .white form .or {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: center;
+}
+
+.Login .white form .Facebook {
+  /* width: 436px; */
+  display: flex;
+  padding: 15px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-radius: 10px;
+  background: #1877F2;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 10px 0;
+  border: none;
+}
+
+.Login .white form .Google {
+  display: flex;
+  padding: 15px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-radius: 10px;
+  background: #fff;
+  color: #555;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+  ;
+}
+
+
+
+
+
+
+
+
+.Login .orange {
+
+  border-radius: 10px;
+  background: #F5735A;
+  padding: 100px;
+  width: 50%;
+
+}
+
+.Login .orange img {
+  /* width: 100%; */
+  margin-left: 100%;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+
+
+.Login .orange .dont {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Login .orange p.Signup {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 20px 0;
+}
+
+
+.Login .orange ul {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px;
+  margin: 30px 30px;
+}
+
+
+.Login .orange .aleardy {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.Login .orange button.Sign {
+  border-radius: 10px;
+  background: #FFF;
+  color: #F5735A;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  display: inline-flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+  /* 200% */
+}
